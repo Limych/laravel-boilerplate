@@ -1,5 +1,5 @@
 {
-    "name": "adr1enbe4udou1n/laravel-boilerplate",
+    "name": "limych/laravel-boilerplate",
     "description": "Laravel 5.7 Boilerplate based on Bootstrap 4 and Tabler for Backend.",
     "keywords": ["framework", "laravel", "boilerplate", "bootstrap 4 beta", "vue", "tabler"],
     "license": "MIT",
