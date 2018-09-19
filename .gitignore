@@ -12,6 +12,7 @@ npm-debug.log
 yarn-error.log
 .env
 .phpunit.result.cache
+/composer.phar
 
 /.php_cs
 /.php_cs.cache
@@ -20,3 +21,8 @@ yarn-error.log
 /_ide_helper_models.php
 
 /public/build
+
+# Project specific
+*.bak
+/acmephp.*
+/deploy.yaml

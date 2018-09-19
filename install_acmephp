@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+php -r "copy('https://github.com/acmephp/acmephp/releases/download/1.0.0-beta5/acmephp.phar', 'acmephp.phar');"
+php -r "copy('https://github.com/acmephp/acmephp/releases/download/1.0.0-beta5/acmephp.phar.pubkey', 'acmephp.phar.pubkey');"
+php acmephp.phar --version

@@ -54,8 +54,9 @@ class AppServiceProvider extends ServiceProvider
     public function register()
     {
         // Dusk, if env is appropriate
-        if ($this->app->environment('local', 'testing')) {
+        if ($this->app->environment() !== 'production') {
             $this->app->register(DuskServiceProvider::class);
+            $this->app->register(\Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class);
         }
 
         $this->app->bind(
