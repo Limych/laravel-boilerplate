@@ -8,11 +8,16 @@
 # to apply, you may also create user-customizations.sh,
 # which will be run after this script.
 
+sudo ln -sf /usr/share/zoneinfo/Europe/Moscow /etc/localtime
+
 git config --global core.excludesfile ~/.gitignore
-echo .idea/ >~/.gitignore
+echo /.idea/ >~/.gitignore
 
 cd ~/code
+
 git config --global core.eol lf
 git config --global core.autocrlf input
-git config core.eol lf
-git config core.autocrlf input
+#git config core.eol lf
+#git config core.autocrlf input
+
+php artisan storage:link
