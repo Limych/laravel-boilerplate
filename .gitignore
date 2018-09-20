@@ -26,3 +26,5 @@ yarn-error.log
 *.bak
 /acmephp.*
 /deploy.yaml
+/Vagrantfile
+/aliases
