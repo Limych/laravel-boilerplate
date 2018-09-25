@@ -5,6 +5,16 @@ return [
     // These are sorted by the native name, which is the order you might show them in a language selector.
     // Regional languages are sorted by their base language, so "British English" sorts as "English, British"
     'supportedLocales' => [
+        'ru' => [
+            'name'         => 'labels.localization.ru',
+            'script'       => 'Cyrl',
+            'native'       => 'Русский',
+            'regional'     => 'ru_RU',
+            'locale_win'   => 'Russian_Russia.1251',
+            'date_formats' => [
+                'default' => 'd/m/Y H:i:s',
+            ],
+        ],
         'en' => [
             'name'         => 'labels.localization.en',
             'script'       => 'Latn',
@@ -22,7 +32,7 @@ return [
             'regional'     => 'fr_FR',
             'locale_win'   => 'French_France.1252',
             'date_formats' => [
-                'default' => 'd/m/Y h:i:s',
+                'default' => 'd/m/Y H:i:s',
             ],
         ],
         'es' => [
@@ -32,7 +42,7 @@ return [
             'regional'     => 'es_ES',
             'locale_win'   => 'Spanish_Spain.1252',
             'date_formats' => [
-                'default' => 'd/m/Y h:i:s',
+                'default' => 'd/m/Y H:i:s',
             ],
         ],
         'ar' => [
@@ -42,7 +52,7 @@ return [
             'regional'     => 'ar_SY',
             'locale_win'   => 'Arabic_Syria.1256',
             'date_formats' => [
-                'default' => 'd/m/Y h:i:s',
+                'default' => 'd/m/Y H:i:s',
             ],
             'dir' => 'rtl',
         ],
